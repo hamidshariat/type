@@ -1,17 +1,21 @@
 html {
-    font-family: serif;
-    color: black;
-    background: radial-gradient(circle, rgba(174,238,232,1) 7%, rgba(148,154,233,1) 100%);
+  font-family: serif;
+  color: black;
+  background: radial-gradient(
+    circle,
+    rgba(174, 238, 232, 1) 7%,
+    rgba(148, 154, 233, 1) 100%
+  );
 }
 body {
-    margin: 0;
+  margin: 0;
 }
 .hero {
-min-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero h1 {
-font-size: 5rem;
+  font-size: 5rem;
 }
